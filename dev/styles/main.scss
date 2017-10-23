@@ -18,6 +18,9 @@ h1{
 	@include respond-to(small){
 		font-size: 3rem;
 	}
+	@include respond-to(x-small){
+		font-size: 2rem;
+	}
 }
 
 p{
@@ -39,6 +42,12 @@ p{
 	padding: 0;
 	margin: 0;
 	font-size: 3.5rem;
+	@include respond-to(small){
+		font-size: 3rem;
+	}
+	@include respond-to(x-small){
+		font-size: 2.5rem;
+	}
 }
 
 .overlay {
