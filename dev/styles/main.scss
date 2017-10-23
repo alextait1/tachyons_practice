@@ -1,4 +1,22 @@
-@import 'setup';
+@import "partials/normalize";
+
+h1, h2, p {
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-size: 5rem;
+	letter-spacing: 5px;
+}
+
+p{
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+	letter-spacing: 2px;
+}
+
 
 // .container {
 // 	max-width: 900px;

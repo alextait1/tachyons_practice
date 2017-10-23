@@ -18,6 +18,7 @@
     "gulp-imagemin": "^3.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^3.1.0",
-    "tachyons": "^4.8.1"
+    "tachyons": "^4.8.1",
+    "tachyons-background-overlays": "^1.1.0"
   }
 }
